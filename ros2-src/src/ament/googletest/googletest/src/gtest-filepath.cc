@@ -50,6 +50,7 @@
 
 #include "gtest/internal/gtest-string.h"
 
+#define _POSIX_PATH_MAX 4096
 #ifdef GTEST_OS_WINDOWS
 #define GTEST_PATH_MAX_ _MAX_PATH
 #elif defined(PATH_MAX)
